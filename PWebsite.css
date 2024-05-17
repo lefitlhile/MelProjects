@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+    color: rgb(19, 167, 69);
+  }
+  #pink-box {
+    background-color: #ff69b4;
+    position: static;
+  }
