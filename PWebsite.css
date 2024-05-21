@@ -1,8 +1,46 @@
+
+
+
 h1 {
-    text-align: center;
-    color: rgb(19, 167, 69);
-  }
-  #pink-box {
-    background-color: #ff69b4;
-    position: static;
-  }
+  text-align: center;
+  color: rgb(28, 49, 35);
+}
+#pink-box {
+  background-color: #ff69b4;
+  position: static;
+}
+
+.checked {
+  color: orange;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+  h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body  {
+background-color: rgb(172, 169, 172);
+margin: 200px;
+
+}
+div.static {
+position: static;
+border: 3px solid #22261d;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
