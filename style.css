@@ -1,6 +1,9 @@
 
 
-
+.container {
+  padding: 40px;
+  margin: 20px;
+}
 h1 {
   text-align: center;
   color: rgb(28, 49, 35);
