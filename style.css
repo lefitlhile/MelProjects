@@ -33,3 +33,15 @@ img {
   border-radius: 50%;
 }
 
+
+body  {
+background-color: rgb(172, 169, 172);
+margin: 200px;
+}
+
+div.static {
+position: static;
+border: 3px solid #22261d;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
