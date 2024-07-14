@@ -12,10 +12,6 @@ h1 {
   background-color: #ff69b4;
   position: static;
 }
-
-.checked {
-  color: orange;
-}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -37,13 +33,38 @@ img {
   border-radius: 50%;
 }
 
+
 body  {
 background-color: rgb(172, 169, 172);
 margin: 200px;
 
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100; /* Ensures header is on top of other content */
 }
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
 div.static {
 position: static;
 border: 3px solid #22261d;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 }
